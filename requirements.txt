@@ -1,0 +1,7 @@
+# sunset-General-Case/ needs only the Python standard library.
+# sunset_GW_general_information.py uses numpy (only to print the singular points).
+numpy
+# sunset-Loops-3-4/ (interval certificate) needs Arb through python-flint, pinned:
+python-flint==0.9.0
+# to open and rerun the notebooks:
+jupyter
