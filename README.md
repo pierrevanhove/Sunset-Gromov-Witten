@@ -1,5 +1,5 @@
-[![Paper I: LAPTH-051/26](https://img.shields.io/badge/Paper_I-LAPTH--051%2F26-b31b1b.svg)](#citation)
-[![Paper II: LAPTH-052/26](https://img.shields.io/badge/Paper_II-LAPTH--052%2F26-b31b1b.svg)](#citation)
+[![Paper I: 2610.10828](https://img.shields.io/badge/Paper_I-2610.10828-b31b1b.svg)](#citation)
+[![Paper II: 2610.10821](https://img.shields.io/badge/Paper_II-2610.10821-b31b1b.svg)](#citation)
 [![Author: Hartmut Maennel](https://img.shields.io/badge/author-Hartmut_Maennel-blue)](#citation)
 [![Author: Pierre Vanhove](https://img.shields.io/badge/author-Pierre_Vanhove-blue)](https://pierrevanhove.github.io)
 ![Language: Python](https://img.shields.io/badge/Language-Python-yellow?logo=python)
@@ -64,17 +64,23 @@ All three notebooks are stored with their outputs, so they can be read on GitHub
 ## Citation
 
 ```bibtex
-@article{MaennelVanhove:SunsetI,
-  author = {Maennel, Hartmut and Vanhove, Pierre},
-  title  = {Equal-mass sunset integrals and genus-zero local {G}romov--{W}itten theory of {C}alabi--{Y}au $n$-folds},
-  note   = {Preprint LAPTH-051/26},
-  eprint = {XXXX.XXXXX}, archivePrefix = {arXiv}
+@article{Maennel:2026lud,
+    author = "Maennel, Hartmut and Vanhove, Pierre",
+    title = "{Equal-mass sunset integrals and genus-zero local Gromov--Witten theory of Calabi--Yau $n$-folds}",
+    eprint = "2610.10828",
+    archivePrefix = "arXiv",
+    primaryClass = "math.AG",
+    month = "10",
+    year = "2026"
 }
-@article{MaennelVanhove:SunsetII,
-  author = {Maennel, Hartmut and Vanhove, Pierre},
-  title  = {The three- and four-loop equal-mass sunset integrals and local {C}alabi--{Y}au fourfolds and fivefolds},
-  note   = {Preprint LAPTH-052/26},
-  eprint = {XXXX.XXXXX}, archivePrefix = {arXiv}
+@article{Maennel:2026fhs,
+    author = "Maennel, Hartmut and Vanhove, Pierre",
+    title = "{The three- and four-loop equal-mass sunset integrals and local Calabi--Yau fourfolds and fivefolds}",
+    eprint = "2610.10821",
+    archivePrefix = "arXiv",
+    primaryClass = "hep-th",
+    month = "10",
+    year = "2026"
 }
 ```
 
