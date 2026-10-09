@@ -1,7 +1,7 @@
 # Reproducible interval certificate (four loops)
 
 This folder contains the computer-assisted proof of the theorem *Certified individual singularities* of [The three- and four-loop
-equal-mass sunset integrals and local Calabi--Yau fourfolds and fivefolds](../Papers/sunset-II-loops34.pdf).
+equal-mass sunset integrals and local Calabi--Yau fourfolds and fivefolds](https://arxiv.org/pdf/2610.10821).
 
 Let $W_j$ be the ambient solutions of $P_4W_j=\delta_{j4}$, with endpoint expansion $W_j=x(a_j+b_j\log x)+O(x^2|\log x|)$. Define
 
@@ -21,7 +21,7 @@ The certificate proves $E_2>0$, $E_3<0$, $E_4>0$ and $E_5>0$.
 | `README.txt` | README of the Github ancillary files, with SHA-256 checksums. |
 
 `certify.py` and `validate.py` are byte-identical to the listings printed in the paper [The three- and four-loop
-equal-mass sunset integrals and local Calabi--Yau fourfolds and fivefolds](../Papers/sunset-II-loops34.pdf) and have the SHA-256 checksums listed in `README.txt`. Do not edit them.
+equal-mass sunset integrals and local Calabi--Yau fourfolds and fivefolds](https://arxiv.org/pdf/2610.10821) and have the SHA-256 checksums listed in `README.txt`. Do not edit them.
 
 ## Running
 

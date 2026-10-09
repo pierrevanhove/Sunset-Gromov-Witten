@@ -17,9 +17,9 @@ with $F_n\subset(\mathbb P^1)^n$ a smooth $(1,\dots,1)$ hypersurface.
 
 | Path | Paper | What it does | Dependencies |
 |---|---|---|---|
-| [`sunset-General-Case/`](sunset-General-Case) | **[Paper I](Papers/sunset-I-general.pdf)** | The finite operator algorithm of Appendix A (*A symbolic implementation of the operator algorithm*): the all-loop sunset differential operator $P_{n-1}$, compared with Example 8.5 <!--`ex:operators`--> and Theorem 8.2<!--`thm:PF`-->. | Python standard library |
-| [`sunset_GW_general_information.py`](sunset_GW_general_information.py), [`Sunset-Gromov-Witten.ipynb`](Sunset-Gromov-Witten.ipynb) | **[Paper I](Papers/sunset-I-general.pdf)**  | Exploratory companion for $L=2,\dots,6$ loops. It recovers the Picard–Fuchs operator from the sunset numbers by exact linear algebra, checks the mirror identity $f_{L-1}=(-1)^L\theta_Q F_{\gamma_L}$ exactly to $Q^{15}$, lists the invariants $N_m(\gamma_L)$, and tests integrality of the multiple-cover transforms. | Python standard library, `numpy` |
-| [`sunset-Loops-3-4/`](sunset-Loops-3-4) | **[Paper II](Papers/sunset-II-loops34.pdf)** | Proof of the four-loop endpoint non-analyticity: a rigorous ball-arithmetic certificate of the signs of $E_2,\dots,E_5$ (Appendix *Reproducible interval certificate*), with a worked worksheet. | `python-flint==0.9.0` |
+| [`sunset-General-Case/`](sunset-General-Case) | **[Paper I](https://arxiv.org/pdf/2610.10828)** | The finite operator algorithm of Appendix A (*A symbolic implementation of the operator algorithm*): the all-loop sunset differential operator $P_{n-1}$, compared with Example 8.5 <!--`ex:operators`--> and Theorem 8.2<!--`thm:PF`-->. | Python standard library |
+| [`sunset_GW_general_information.py`](sunset_GW_general_information.py), [`Sunset-Gromov-Witten.ipynb`](Sunset-Gromov-Witten.ipynb) | **[Paper I](https://arxiv.org/pdf/2610.10828)**  | Exploratory companion for $L=2,\dots,6$ loops. It recovers the Picard–Fuchs operator from the sunset numbers by exact linear algebra, checks the mirror identity $f_{L-1}=(-1)^L\theta_Q F_{\gamma_L}$ exactly to $Q^{15}$, lists the invariants $N_m(\gamma_L)$, and tests integrality of the multiple-cover transforms. | Python standard library, `numpy` |
+| [`sunset-Loops-3-4/`](sunset-Loops-3-4) | **[Paper II](https://arxiv.org/pdf/2610.10821)** | Proof of the four-loop endpoint non-analyticity: a rigorous ball-arithmetic certificate of the signs of $E_2,\dots,E_5$ (Appendix *Reproducible interval certificate*), with a worked worksheet. | `python-flint==0.9.0` |
 
 ## Quick start
 
@@ -51,14 +51,14 @@ All three notebooks are stored with their outputs, so they can be read on GitHub
 |---|---|
 | [`sunset-General-Case/sunset-differential-operator.ipynb`](sunset-General-Case/sunset-differential-operator.ipynb) | Runs the Appendix A listing; compares with Example 8.5<!--`ex:operators`--> and with the leading coefficient (8.3<!--`eq:leadP`-->); prints the operators for $n=2,\dots,8$ in LaTeX. |
 | [`Sunset-Gromov-Witten.ipynb`](Sunset-Gromov-Witten.ipynb) | `report(L)` for $L=2,\dots,6$: operator, mirror identity, $N_m(\gamma_L)$, multiple-cover integrality. |
-| [`sunset-Loops-3-4/sunset-II-certificate-worksheet.ipynb`](sunset-Loops-3-4/sunset-II-certificate-worksheet.ipynb) | [Paper II](Papers/sunset-II-loops34.pdf) Certificates I–III step by step; both certificate runs; every number quoted in the paper checked against the output. |
+| [`sunset-Loops-3-4/sunset-II-certificate-worksheet.ipynb`](sunset-Loops-3-4/sunset-II-certificate-worksheet.ipynb) | [Paper II](https://arxiv.org/pdf/2610.10821) Certificates I–III step by step; both certificate runs; every number quoted in the paper checked against the output. |
 
 ## Conventions
 
 * $n$ is the number of propagators, and $L=n-1$ is the number of loops.
-  * [Paper I](Papers/sunset-I-general.pdf) and `sunset-General-Case/` use $n$; `sunset_GW_general_information.py` uses $L$.
+  * [Paper I](https://arxiv.org/pdf/2610.10828) and `sunset-General-Case/` use $n$; `sunset_GW_general_information.py` uses $L$.
   * The Fano variety is therefore $F_n\subset(\mathbb P^1)^n$ in the papers and $F_L\subset(\mathbb P^1)^{L+1}$ in the script.
-* $y=-t$ throughout [Paper I](Papers/sunset-I-general.pdf), Remark 8.3<!--`rem:unsigned`-->). The holomorphic period is $\sum_D(-1)^DA_Dy^D$, where $A_D=\sum_{|d|=D}\binom{D}{d_1,\dots,d_n}^2$.
+* $y=-t$ throughout [Paper I](https://arxiv.org/pdf/2610.10828), Remark 8.3<!--`rem:unsigned`-->). The holomorphic period is $\sum_D(-1)^DA_Dy^D$, where $A_D=\sum_{|d|=D}\binom{D}{d_1,\dots,d_n}^2$.
 * Operators are written $\sum_j y^jP_j(\theta_y)$ with $\theta_y=y\,\partial_y$ and powers of $y$ on the left.
 
 ## Citation

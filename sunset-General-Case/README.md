@@ -1,7 +1,7 @@
 # Paper I — the all-loop sunset differential operator
 
 This folder contains the finite operator algorithm of [Equal-mass sunset integrals and genus-zero local Gromov--Witten theory of Calabi--Yau
-$n$-folds](../Papers/sunset-I-general.pdf): Definition 8.1<!--`def:operator`-->, Theorem 8.2 <!--`thm:PF`-->, and Appendix A, *A symbolic implementation of the operator algorithm*. The code uses only the Python standard library and exact rational arithmetic.
+$n$-folds](https://arxiv.org/pdf/2610.10828): Definition 8.1<!--`def:operator`-->, Theorem 8.2 <!--`thm:PF`-->, and Appendix A, *A symbolic implementation of the operator algorithm*. The code uses only the Python standard library and exact rational arithmetic.
 
 | File | Role |
 |---|---|
